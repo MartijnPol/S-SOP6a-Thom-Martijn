@@ -7,6 +7,10 @@ public class JenkinsSetup {
 
     private String name;
 
+    public JenkinsSetup() {
+        
+    }
+
     public JenkinsSetup(String name) {
         this.name = name;
     }
