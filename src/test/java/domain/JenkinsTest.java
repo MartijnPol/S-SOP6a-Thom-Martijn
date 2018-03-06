@@ -1,4 +1,4 @@
-package java;
+package domain;
 
 import domain.JenkinsSetup;
 import org.junit.Before;
