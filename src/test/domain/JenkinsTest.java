@@ -18,7 +18,7 @@ public class JenkinsTest {
     }
 
     @Test
-    public void testGetAndSetName(){
+    public void getAndSetNameTest(){
         String expResult = "testSetName";
         jenkinsSetup.setName("testSetName");
         String result = jenkinsSetup.getName();
