@@ -1,5 +1,6 @@
-package domain;
+package java;
 
+import domain.JenkinsSetup;
 import org.junit.Before;
 import org.junit.Test;
 
