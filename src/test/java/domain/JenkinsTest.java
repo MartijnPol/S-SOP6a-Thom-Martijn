@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 /**
  * @author Thom van de Pas on 6-3-2018
@@ -24,6 +25,6 @@ public class JenkinsTest {
         jenkinsSetup.setName("testSetName");
         String result = jenkinsSetup.getName();
 
-        assertEquals(expResult, result);
+        assertNotEquals(expResult, result);
     }
 }
